@@ -1,0 +1,110 @@
+  /* css/styles.css */
+  body {
+      background-color: #FE9993;
+  }
+
+  .container {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      width: 550px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  #upperContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 18px;
+  }
+
+  #lowerContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+  }
+
+  #textContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+  }
+
+  #profilePicture {
+      width: 120px;
+      height: 120px;
+  }
+
+  .button {
+      width: 120px;
+      padding: 8px;    
+      color: white;
+      font-size: 16px;
+      margin-right: 18px;
+      border: 0px;
+  }
+
+  #followButton {
+    background-color: #4CAF50; 
+  }
+
+  #followButton:hover {
+    background-color: #71BD82; /* Green */
+    color: white;
+}
+
+  #followedButton {
+    background-color: dodgerblue;
+  }
+
+  #followedButton:hover {
+    background-color: red;
+  }
+
+  .container, #profilePicture, .button {
+    border-radius: 4px;
+  }
+
+  .containerMetricsValue {
+      display: flex;
+      flex-direction: column;
+      margin-right: 70px;
+  }
+
+  p {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+  }
+
+  #username {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #userLocation {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  #userDescription {
+    color: #9D9D98;
+    font-size: 14px;
+}
+
+  .metricsValue {
+      font-weight: bold;
+      margin-bottom: 0px;
+      margin-top: 0px;
+  }
+
+  .metricsCategory {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-size: 14px;
+  }
